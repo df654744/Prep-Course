@@ -50,7 +50,7 @@ function resta(x, y) {
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  resulMulti = x - y;
+  resulMulti = x * y;
   return resulMulti;
 }
 
@@ -247,7 +247,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  periCuad= 4(lado);
+  periCuad= 4 * (lado);
   return periCuad;
 }
 
@@ -283,6 +283,8 @@ function esVocal(letra){
       return "Dato incorrecto";
     }
     
+  } else {
+    return "Dato incorrecto"
   }
   
   
